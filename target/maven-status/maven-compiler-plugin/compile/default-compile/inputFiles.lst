@@ -1,0 +1,16 @@
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/impl/postgre/PostgreSqlUserDao.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/factory/DaoFactory.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/Main.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/factory/mongo/MongoConnection.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/model/Login.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/factory/mongo/MongoDaoFactory.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/recaptcha/Recaptcha.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/impl/mongo/MongoUserDao.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/factory/postgreSql/PostgreSqlDaoFactory.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/dao/UserDao.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/authentication/MongoRealm.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/model/Error.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/service/impl/UserServiceImpl.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/service/UserService.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/logback/Logback.java
+/Users/boussaidi/Documents/IdeaProjects/mwaka/src/main/java/io/mwaka/model/User.java

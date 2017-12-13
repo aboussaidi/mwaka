@@ -1,0 +1,16 @@
+io/mwaka/dao/UserDao.class
+io/mwaka/dao/factory/mongo/MongoConnection.class
+io/mwaka/dao/factory/mongo/MongoDaoFactory.class
+io/mwaka/service/UserService.class
+io/mwaka/dao/factory/DaoFactory.class
+io/mwaka/dao/factory/postgreSql/PostgreSqlDaoFactory.class
+io/mwaka/model/Login.class
+io/mwaka/dao/impl/postgre/PostgreSqlUserDao.class
+io/mwaka/model/Error.class
+io/mwaka/dao/impl/mongo/MongoUserDao.class
+io/mwaka/Main.class
+io/mwaka/model/User.class
+io/mwaka/service/impl/UserServiceImpl.class
+io/mwaka/logback/Logback.class
+io/mwaka/authentication/MongoRealm.class
+io/mwaka/recaptcha/Recaptcha.class
