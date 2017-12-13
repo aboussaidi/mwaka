@@ -1,0 +1,6 @@
+{
+  "name": "mwaka",
+  "description": "mwaka",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}

@@ -1,0 +1,92 @@
+2017-12-12 19:09:50 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = public
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: get, /, spark.TemplateViewRouteImpl$1@4e268090
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: get, /signup, spark.TemplateViewRouteImpl$1@306cf3ea
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: get, /signin, spark.TemplateViewRouteImpl$1@5136d012
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: post, /signin, spark.TemplateViewRouteImpl$1@e1de817
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: post, /signup, spark.TemplateViewRouteImpl$1@3972a855
+2017-12-12 19:09:50 [main] DEBUG spark.route.Routes - Adds route: post, /slack, spark.RouteImpl$1@6a370f4
+2017-12-12 19:09:50 [Thread-0] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.util.log - Logging initialized @10956ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@5fd0d1e2 added {qtp211701494{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@fb794d8[HTTP/1.1] added {HttpConfiguration@3e0df957{32768/8192,8192/8192,https://:0,[ForwardedRequestCustomizer@2b2d2fb8]},POJO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@5fd0d1e2,UNMANAGED}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{null,[]}{0.0.0.0:0} added {qtp211701494{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@c064240,AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{null,[]}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@55872a84,POJO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{null,[http/1.1]}{0.0.0.0:0} added {HttpConnectionFactory@fb794d8[HTTP/1.1],AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added HttpConnectionFactory@fb794d8[HTTP/1.1]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@bd491ee,MANAGED}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@5fd0d1e2 added {ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000},AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@5fd0d1e2 added {spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1,MANAGED}
+2017-12-12 19:09:50 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+2017-12-12 19:09:50 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:5000
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.Server@5fd0d1e2
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@5fd0d1e2 added {org.eclipse.jetty.server.handler.ErrorHandler@1ac3ee51,AUTO}
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.server.Server - jetty-9.4.z-SNAPSHOT
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.Server@5fd0d1e2
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting qtp211701494{STOPPED,8<=0<=200,i=0,q=0}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11148ms qtp211701494{STARTED,8<=8<=200,i=8,q=0}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionCache@64b277b0[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false],AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionCache@64b277b0[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false] added {org.eclipse.jetty.server.session.NullSessionDataStore@7b4b1622[passivating=false,graceSec=3600],AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionIdManager@50688485[worker=null]
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionIdManager@50688485[worker=node0] added {org.eclipse.jetty.server.session.HouseKeeper@31a3fd06[interval=600000, ownscheduler=false],MANAGED}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.HouseKeeper@31a3fd06[interval=600000, ownscheduler=false]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2490c08d
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11178ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@2490c08d
+2017-12-12 19:09:50 [Thread-0] DEBUG org.eclipse.jetty.server.session - Using own scheduler for scavenging
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11183ms org.eclipse.jetty.server.session.HouseKeeper@31a3fd06[interval=660000, ownscheduler=true]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11184ms org.eclipse.jetty.server.session.DefaultSessionIdManager@50688485[worker=node0]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.Server@5fd0d1e2 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@50688485[worker=node0],MANAGED}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionIdManager@50688485[worker=node0],UNMANAGED}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5433c2e8
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11187ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@5433c2e8
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionCache@64b277b0[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.NullSessionDataStore@7b4b1622[passivating=false,graceSec=3600]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11192ms org.eclipse.jetty.server.session.NullSessionDataStore@7b4b1622[passivating=false,graceSec=3600]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11193ms org.eclipse.jetty.server.session.DefaultSessionCache@64b277b0[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11193ms spark.embeddedserver.jetty.JettyHandler1735681628==dftMaxIdleSec=-1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.handler.ErrorHandler@1ac3ee51
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting org.eclipse.jetty.server.handler.ErrorHandler@1ac3ee51
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11194ms org.eclipse.jetty.server.handler.ErrorHandler@1ac3ee51
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000} added {sun.nio.ch.ServerSocketChannelImpl[/0.0.0.0:5000],POJO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@c064240
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11216ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@c064240
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting HttpConnectionFactory@fb794d8[HTTP/1.1]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11217ms HttpConnectionFactory@fb794d8[HTTP/1.1]
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@bd491ee
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.io.ManagedSelector@c75e6ae id=0 keys=-1 selected=-1 added {EatWhatYouKill@6c891b23/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@4fadb422/IDLE/0/1,AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@bd491ee added {org.eclipse.jetty.io.ManagedSelector@c75e6ae id=0 keys=-1 selected=-1,AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.io.ManagedSelector@295035ea id=1 keys=-1 selected=-1 added {EatWhatYouKill@ab3f6f8/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2e47a48e/IDLE/0/1,AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@bd491ee added {org.eclipse.jetty.io.ManagedSelector@295035ea id=1 keys=-1 selected=-1,AUTO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.ManagedSelector@c75e6ae id=0 keys=-1 selected=-1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@6c891b23/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@4fadb422/IDLE/0/1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11228ms EatWhatYouKill@6c891b23/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@4fadb422/IDLE/0/1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$99/829453502@50503bc6
+2017-12-12 19:09:50 [qtp211701494-15] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$99/829453502@50503bc6
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11235ms org.eclipse.jetty.io.ManagedSelector@c75e6ae id=0 keys=0 selected=0
+2017-12-12 19:09:50 [qtp211701494-15] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@6c891b23/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@4fadb422/PRODUCING/0/1 execute true
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.io.ManagedSelector@295035ea id=1 keys=-1 selected=-1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@ab3f6f8/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2e47a48e/IDLE/0/1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11237ms EatWhatYouKill@ab3f6f8/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2e47a48e/IDLE/0/1
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$99/829453502@398240d9
+2017-12-12 19:09:50 [qtp211701494-15] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@6c891b23/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@4fadb422/PRODUCING/0/1 produce non-blocking
+2017-12-12 19:09:50 [qtp211701494-15] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector loop waiting on select
+2017-12-12 19:09:50 [qtp211701494-16] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$99/829453502@398240d9
+2017-12-12 19:09:50 [qtp211701494-16] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@ab3f6f8/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2e47a48e/PRODUCING/0/1 execute true
+2017-12-12 19:09:50 [qtp211701494-16] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@ab3f6f8/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2e47a48e/PRODUCING/0/1 produce non-blocking
+2017-12-12 19:09:50 [qtp211701494-16] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector loop waiting on select
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11241ms org.eclipse.jetty.io.ManagedSelector@295035ea id=1 keys=0 selected=0
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11243ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@bd491ee
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000} added {acceptor-0@15d22deb,POJO}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue acceptor-0@15d22deb
+2017-12-12 19:09:50 [qtp211701494-17] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-0@15d22deb
+2017-12-12 19:09:50 [Thread-0] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000}
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11249ms ServerConnector@217479bc{HTTP/1.1,[http/1.1]}{0.0.0.0:5000}
+2017-12-12 19:09:50 [Thread-0] INFO  org.eclipse.jetty.server.Server - Started @11250ms
+2017-12-12 19:09:50 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @11251ms org.eclipse.jetty.server.Server@5fd0d1e2
