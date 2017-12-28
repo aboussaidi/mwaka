@@ -2,6 +2,7 @@ package io.mwaka.recaptcha;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import io.mwaka.Exception.RecaptchaException;
 import lombok.Getter;
 import lombok.Setter;
 import okhttp3.*;
@@ -14,7 +15,7 @@ import java.io.IOException;
 @Setter
 public class Recaptcha {
 
-    private final static Logger logger = LoggerFactory.getLogger("heroku");
+    private final static Logger logger = LoggerFactory.getLogger(new ProcessBuilder().environment().get("DEBUG"));
 
     private String secret;
     private String response;
@@ -26,7 +27,7 @@ public class Recaptcha {
         this.remoteip = remoteip;
     }
 
-    public Boolean siteverify() {
+    public Boolean siteverify() throws RecaptchaException {
         MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
         OkHttpClient client = new OkHttpClient();
         RequestBody recaptchaForm = new FormBody.Builder()
@@ -44,12 +45,12 @@ public class Recaptcha {
             if (node.get("success").asBoolean()) {
                 return true;
             } else {
-                logger.error(node.get("error-codes").asText());
-                return false;
+                logger.error(node.get("error-codes").get(0).asText());
+                throw new RecaptchaException(node.get("error-codes").get(0).asText());
             }
         } catch (IOException e) {
             logger.error(e.getMessage());
-            return false;
+            throw new RecaptchaException(e.getMessage());
         }
     }
 }

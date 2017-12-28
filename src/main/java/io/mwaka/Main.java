@@ -1,6 +1,7 @@
 package io.mwaka;
 
 import com.jcabi.aspects.Loggable;
+import io.mwaka.Exception.RecaptchaException;
 import io.mwaka.model.Error;
 import io.mwaka.recaptcha.Recaptcha;
 import io.mwaka.service.UserService;
@@ -20,10 +21,13 @@ import static spark.Spark.*;
 public class Main {
     final static Logger logger = LoggerFactory.getLogger(new ProcessBuilder().environment().get("DEBUG"));
 
-    @Loggable(value = Loggable.DEBUG,prepend = true)
+    @Loggable(value = Loggable.DEBUG, prepend = true)
     public static void main(String[] args) {
         port(getHerokuAssignedPort());
         staticFiles.location("public");
+        /*
+        <==GET==>
+         */
         get("/", (req, res) ->
                         new ModelAndView(null, "coming-soon.ftl"),
                 new FreeMarkerEngine());
@@ -36,15 +40,20 @@ public class Main {
             return new ModelAndView(null, "signin.ftl");
         }, new FreeMarkerEngine());
 
+
+        /*
+        <==POST==>
+         */
         post("/signin", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             try {
                 Recaptcha recaptcha = new Recaptcha("6LcMHjsUAAAAAC3yg_aXZbitb6NZ6ccOh4cUrx1W",
                         request.queryMap("g-recaptcha-response").value(),
                         request.ip());
-                if (!recaptcha.siteverify()) {
-                    Error error = new Error("020", "There was an error with the recaptcha code, please try again.");
-                    model.put("error", error);
+                try{
+                    recaptcha.siteverify();
+                }catch (RecaptchaException e){
+                    model.put("error", e.getMessage());
                     return new ModelAndView(model, "signin.ftl");
                 }
                 UserService userService = new UserServiceImpl();
